@@ -1,12 +1,16 @@
 module.exports = {
+  env: {
+    es6: true,
+  },
   extends: [
     "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:react-hooks/recommended",
     "plugin:import/recommended",
     "plugin:prettier/recommended",
   ],
-  plugins: ["prefer-arrow"],
+  parserOptions: {
+    ecmaVersion: 2020,
+  },
+  plugins: ["import", "prefer-arrow", "prettier"],
   rules: {
     "array-callback-return": "error",
     "block-scoped-var": "error",
@@ -26,10 +30,6 @@ module.exports = {
     "no-unsafe-optional-chaining": "error",
     "prefer-arrow-callback": "error",
     "prefer-destructuring": ["error", { array: false, object: true }], // TODO: Evaluate arrays
-    "react/jsx-sort-props": [
-      "error",
-      { reservedFirst: true, shorthandFirst: true },
-    ],
     "sort-keys": ["error", "asc", { natural: true }],
   },
 };

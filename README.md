@@ -6,9 +6,9 @@ Learn more about sharable ESLint configs [in the docs](https://eslint.org/docs/d
 
 ## Configurations
 
-There is currently only a single configuration.
+There are currently only `/base`, `/node`, and `/web` configurations.
 
-The goal in the near future is to export base, web, mobile, and node configurations from this package.
+The goal in the near future is to export a mobile from this package, too.
 
 ## Contributing
 
