@@ -7,7 +7,7 @@ module.exports = {
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
   ],
-  parser: "@babel/eslint-parser",
+  parser: "babel-eslint",
   parserOptions: {
     ecmaFeatures: {
       impliedStrict: true,
@@ -15,7 +15,7 @@ module.exports = {
     },
     sourceType: "module",
   },
-  plugins: ["@babel", "react"],
+  plugins: ["babel", "react"],
   rules: {
     "react/jsx-sort-props": [
       "error",
