@@ -29,6 +29,7 @@ module.exports = {
             position: "before",
           },
         ],
+        "pathGroupsExcludedImportTypes": ["react"],
       },
     ],
     "react/jsx-sort-props": [
