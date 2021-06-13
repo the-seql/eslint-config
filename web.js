@@ -17,6 +17,20 @@ module.exports = {
   },
   plugins: ["babel", "react"],
   rules: {
+    "import/order": [
+      "error",
+      {
+        "alphabetize": { order: "asc" },
+        "newlines-between": "always",
+        "pathGroups": [
+          {
+            group: "external",
+            pattern: "react",
+            position: "before",
+          },
+        ],
+      },
+    ],
     "react/jsx-sort-props": [
       "error",
       { reservedFirst: true, shorthandFirst: true },
