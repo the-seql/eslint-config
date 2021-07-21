@@ -1,6 +1,6 @@
 {
   "name": "@seql/eslint-config",
-  "version": "1.0.9å",
+  "version": "1.0.9",
   "description": "ESLint configs for SEQL",
   "main": "index.js",
   "scripts": {},
