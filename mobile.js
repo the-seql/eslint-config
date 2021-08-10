@@ -24,7 +24,7 @@ module.exports = {
     },
     sourceType: "module",
   },
-  plugins: ["react", "react-native"],
+  plugins: ["detox", "react", "react-native"],
   rules: {
     "import/order": [
       "error",
