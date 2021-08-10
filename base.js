@@ -18,6 +18,7 @@ module.exports = {
     "complexity": ["error", { max: 10 }],
     "dot-notation": "error",
     "eqeqeq": "error",
+    "import/no-commonjs": "warning",
     "import/order": [
       "error",
       { "alphabetize": { order: "asc" }, "newlines-between": "always" },
