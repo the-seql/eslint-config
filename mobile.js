@@ -12,4 +12,7 @@ module.exports = {
     },
   ],
   plugins: ["detox"],
+  settings: {
+    "import/ignore": ["react-native"], // https://github.com/facebook/react-native/issues/28549
+  },
 };
