@@ -6,12 +6,15 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "plugin:import/recommended",
+    "plugin:jest/recommended",
+    "plugin:jest/style",
     "plugin:prettier/recommended",
   ],
   parserOptions: {
     ecmaVersion: 2020,
+    sourceType: "module",
   },
-  plugins: ["import", "prefer-arrow", "prettier"],
+  plugins: ["jest", "import", "prefer-arrow", "prettier"],
   rules: {
     "array-callback-return": "error",
     "block-scoped-var": "error",
