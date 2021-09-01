@@ -6,9 +6,9 @@ Learn more about sharable ESLint configs [in the docs](https://eslint.org/docs/d
 
 ## Configurations
 
-There are currently only `/base`, `/node`, and `/web` configurations.
+There are currently `/base`, `/node`, `/mobile`, and `/web` configurations.
 
-The goal in the near future is to export a mobile from this package, too.
+We use [eslint-patch](https://www.npmjs.com/package/@rushstack/eslint-patch) to deal with some funkiness around eslint and npm's handling of peerDeps. Please be sure to follow the setup for that workaround.
 
 ## Contributing
 
