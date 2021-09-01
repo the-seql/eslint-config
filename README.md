@@ -8,7 +8,15 @@ Learn more about sharable ESLint configs [in the docs](https://eslint.org/docs/d
 
 There are currently `/base`, `/node`, `/mobile`, and `/web` configurations.
 
-We use [eslint-patch](https://www.npmjs.com/package/@rushstack/eslint-patch) to deal with some funkiness around eslint and npm's handling of peerDeps. Please be sure to follow the setup for that workaround.
+We use [eslint-patch](https://www.npmjs.com/package/@rushstack/eslint-patch) to deal with some funkiness around eslint and npm's handling of peerDeps.
+
+Please be sure to add this to the top of your `.eslintrc.js`:
+
+```js
+require("@seql/eslint-config/eslint-patch");
+
+module.exports = { ... }; // Your config
+```
 
 ## Contributing
 
