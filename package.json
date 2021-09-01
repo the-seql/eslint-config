@@ -1,12 +1,13 @@
 {
   "name": "@seql/eslint-config",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "ESLint configs for SEQL",
   "main": "index.js",
   "scripts": {},
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@rushstack/eslint-patch": "^1.0.6",
     "babel-eslint": ">=10.1.0",
     "eslint-config-prettier": ">=8.3.0",
     "eslint-plugin-babel": ">=5.3.1",
