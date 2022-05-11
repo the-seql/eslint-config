@@ -3,6 +3,7 @@ module.exports = {
     require.resolve("./base"),
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
+    // eslint-disable-next-line react-hooks/exhaustive-deps for dependency array requirements that just make life more complicated, but use sparingly
   ],
   parser: "babel-eslint",
   parserOptions: {

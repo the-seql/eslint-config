@@ -35,6 +35,6 @@ module.exports = {
     "no-unsafe-optional-chaining": "error",
     "prefer-arrow-callback": "error",
     "prefer-destructuring": ["error", { array: false, object: true }], // TODO: Evaluate arrays
-    "sort-keys": ["error", "asc", { natural: true }],
+    // "sort-keys": ["error", "asc", { natural: true }], // prefer ability to place primary key on top
   },
 };
